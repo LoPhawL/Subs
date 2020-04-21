@@ -24,6 +24,11 @@ export class CarDetailsComponent implements OnInit {
       this.selectedCar = this.carDataService.GetCar(this.selectedId);
     }
     this.paramsSubscription = this.activeRoute.params;
+    // this.paramsSubscription.subscribe(params =>
+    //   {
+    //     this.selectedId = params['id'];
+    //     this.selectedCar = this.carDataService.GetCar(this.selectedId);
+    //   });
   }
 
   EnableSubs()
