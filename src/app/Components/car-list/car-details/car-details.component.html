@@ -1,0 +1,17 @@
+<div style="border: 2px solid blue" class="m-3 p-3">
+
+<p>car-details component (nested route) - {{selectedId}}</p>
+<button class="btn btn-sm btn-outline-primary mx-2" (click)="EnableSubs()">Enable Subscription</button>
+
+<hr>
+
+<div class="container">
+    <div class="row">Model -- <strong>{{selectedCar.model}}</strong></div>
+    <div class="row">Year -- <strong>{{selectedCar.year}}</strong></div>
+    <div class="row">Manufacuter -- <strong>{{selectedCar.manufacturer}}</strong></div>
+
+<a class="btn btn-sm btn-outline-success mx-2 mt-2" [routerLink]="'Order'">Order</a>
+</div>
+
+</div>
+

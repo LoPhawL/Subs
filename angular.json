@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Essentials"
+    }
+  },
+  "defaultProject": "Essentials",
+  "cli": {
+    "analytics": false
+  }
 }
